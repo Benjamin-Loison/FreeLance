@@ -1,0 +1,2 @@
+create table demands(id int auto_increment, username VARCHAR(60), address VARCHAR(200), tel VARCHAR(20), email VARCHAR(60), breakdown VARCHAR(15), documents VARCHAR(255), description VARCHAR(255), here VARCHAR(3), addressBreakdown VARCHAR(200), nameBreakdown VARCHAR(60), telBreakdown VARCHAR(20), date DATETIME, PRIMARY KEY (id));
+create table priceList(id int auto_increment, plumbing VARCHAR(255), electricity VARCHAR(255), locksmith VARCHAR(255), PRIMARY KEY (id));
